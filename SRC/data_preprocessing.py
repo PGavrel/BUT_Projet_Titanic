@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 
-def load_data(file_path="Donnees/Donnees.csv"):
+def load_data(file_path="SRC/Donnees.csv"):
     df = pd.read_csv(file_path)
     return df
 
