@@ -9,5 +9,5 @@ def train_model(X_train, y_train):
     return model
 
 
-def save_model(model, file_path="Donnees/model.pkl"):
+def save_model(model, file_path="SRC/model.pkl"):
     joblib.dump(model, file_path)
