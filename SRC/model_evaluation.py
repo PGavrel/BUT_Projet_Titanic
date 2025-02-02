@@ -10,5 +10,5 @@ def evaluate_model(model, X_test, y_test):
     return acc, report
 
 
-def load_model(file_path="Donnees/model.pkl"):
+def load_model(file_path="SRC/model.pkl"):
     return joblib.load(file_path)
